@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
+  displayValue = '';
+  getData = (val: any) => {
+    this.displayValue = val;
+  };
+
 }
